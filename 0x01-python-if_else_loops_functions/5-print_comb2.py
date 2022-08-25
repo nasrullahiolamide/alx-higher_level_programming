@@ -5,4 +5,4 @@ for i in range(a, b):
     if i != (b-1):
         print("{:02d},".format(i), end=' ')
     else:
-        print("{:02d}\n".format(i))
+        print("{:02d}".format(i))
