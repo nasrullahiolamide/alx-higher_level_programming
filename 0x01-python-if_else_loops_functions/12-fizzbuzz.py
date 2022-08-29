@@ -10,8 +10,8 @@ def fizzbuzz():
             print("Buzz", end="")
         else:
             print(i, end="")
+
         if i == (b - 1):
             break
         else:
             print(" ", end="")
-    print()
