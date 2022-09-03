@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+import sys
+
+arg_items = sys.argv
+
+if (len(arg_items) - 1 == 0):
+    print("{:d} arguments.".format(0))
+else:
+    print("{:d} arguments:".format(len(arg_items) - 1))
+    i = 1
+    while i < len(arg_items):
+        print("{}: {}".format(i, arg_items[i]))
+        i = i + 1
