@@ -10,3 +10,7 @@ if __name__ == "__main__":
         sum = sum + int(arg_ele[i])
         i = i + 1
     print(sum)
+
+import hidden_4
+
+print(dir(hidden_4))
