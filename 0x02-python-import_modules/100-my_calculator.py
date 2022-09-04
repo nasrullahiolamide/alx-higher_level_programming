@@ -17,7 +17,7 @@ if __name__ == "__main__":
         print("{:d} + {:d} = {:d}".format(op1, op2, calc.add(op1, op2)))
     elif operator == "-":
         print("{:d} - {:d} = {:d}".format(op1, op2, calc.sub(op1, op2)))
-    elif operator == "+":
+    elif operator == "*":
         print("{:d} * {:d} = {:d}".format(op1, op2, calc.mul(op1, op2)))
     elif operator == "/":
         print("{:d} / {:d} = {:d}".format(op1, op2, calc.div(op1, op2)))
