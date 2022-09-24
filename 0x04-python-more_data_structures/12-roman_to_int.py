@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+
 def roman_to_int(roman_string):
-    if not roman_string:
-        return None
+    if roman_string is None:
+        return 0
     else:
         sum = 0
         str_list = []
