@@ -8,6 +8,7 @@ def complex_delete(a_dictionary, value):
     else:
         return a_dictionary
 
+
 def get_key(a_dictionary, x):
     values = list(a_dictionary.values())
     idx = 0
