@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 def weight_average(my_list=[]):
-    return (my_sum(my_list) / my_weight(my_list))
+    if len(my_list) == 0:
+        return 0
+    else:
+        return (my_sum(my_list) / my_weight(my_list))
 
 def my_sum(tuple_list):
     inner_sum = 0
