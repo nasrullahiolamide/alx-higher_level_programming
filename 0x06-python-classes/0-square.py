@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Object oriented programming 
+Object oriented programming
 """
+
 
 class Square:
     """
