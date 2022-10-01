@@ -16,7 +16,7 @@ class Square:
 
         self.__size = size
         try:
-            isinstance(size, int)
+            assert isinstance(size, int)
 
         except BaseException:
             raise TypeError("size must be an Integer")
