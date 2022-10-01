@@ -10,7 +10,7 @@ class Square:
     public instance method
     """
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """
         private instance attribute
         parameters
