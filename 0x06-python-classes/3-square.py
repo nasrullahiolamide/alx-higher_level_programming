@@ -5,6 +5,10 @@ No imported module
 
 
 class Square:
+    """
+    Private instance attribute size
+    public instance method
+    """
 
     def __init__(self, size):
         """
@@ -23,4 +27,8 @@ class Square:
             raise ValueError("size must be >= 0")
 
     def area(self):
+        """
+        public instance method
+        returns the current square area
+        """
         return (self.__size * self.__size)
