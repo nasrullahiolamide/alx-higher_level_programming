@@ -20,5 +20,5 @@ class Square:
 
         except BaseException:
             raise TypeError("size must be an Integer")
-        if int(size) < 0:
+        if size < 0:
             raise ValueError("size must be >= 0")
