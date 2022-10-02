@@ -58,7 +58,7 @@ class Square:
         except BaseException:
             raise TypeError("position must be a tuple of 2 positive integers")
         try:
-            assert type(value[0]) == int or type(value[1]) == int
+            assert type(value[0]) == int and type(value[1]) == int
         except BaseException:
             raise TypeError("position must be a tuple of 2 positive integers")
         if value[0] < 0 or value[1] < 0:
