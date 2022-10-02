@@ -53,7 +53,10 @@ class Square:
         public instance method
         Method that print a # in size number of times
         """
-        for i in range(self.size):
-            for j in range(self.size - 1):
-                print("#", end="")
-            print("#")
+        if self.size == 0:
+            print("")
+        else:
+            for i in range(self.size):
+                for j in range(self.size - 1):
+                    print("#", end="")
+                print("#")
