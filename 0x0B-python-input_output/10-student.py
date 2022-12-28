@@ -17,11 +17,14 @@ class Student:
 
         # covert dict rep into list of tuples
         for key, value in self.__dict__.items():
-            # chck if attr list is empty
-            if (not attrs):
+            # chck if attr list is empty to return original dict
+            if (isinstance(attrs, list) and len(attrs) == 0):
+                return new_dict
+            elif (not attrs):
                 return self.__dict__
             else:
                 # loop over attr to check if it matches the key
+                # to return modified dict
                 for attr in attrs:
                     if attr in key:
                         new_dict[attr] = value
