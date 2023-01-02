@@ -13,5 +13,4 @@ class MyList(list):
         """
         Sort function (method)
         """
-        sorted_list = self.sort()
-        print(self)
+        print(sorted(self))
