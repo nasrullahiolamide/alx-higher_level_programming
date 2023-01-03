@@ -4,6 +4,9 @@ Base Geometry Module
 """
 
 class BaseGeometry(object):
+    """
+    BaseGeometry Class
+    """
     pass
     # def area(self):
     #     raise Exception("Area is not implemented")
