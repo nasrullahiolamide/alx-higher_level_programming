@@ -14,8 +14,8 @@ if __name__ == '__main__':
 	cursor = db.cursor()
 	
 	
-	cursor.execute('SELECT * from states WHERE name LIKE \'N%\'')
+	cursor.execute('SELECT * from states WHERE name LIKE \'N%\' ORDER BY id ASC')
 	for r in cursor.fetchall():
-		print ("{} \n".format(r), end='')
+		print ("{}".format(r), end='\n')
 	cursor.close()
 	db.close
