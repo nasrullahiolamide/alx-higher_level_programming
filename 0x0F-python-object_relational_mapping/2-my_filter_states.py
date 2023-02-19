@@ -21,6 +21,7 @@ if __name__ == '__main__':
     cursor.execute(
         '''SELECT * from states WHERE name LIKE '{:s}' ORDER BY id ASC'''.format(argv[4]))
     for r in cursor.fetchall():
-        print(r)
+        if r[1] == argv[4]:
+            print(r)
     cursor.close()
     db.close
